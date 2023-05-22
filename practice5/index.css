@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(11, 17, 94);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(19, 19, 122);
+  height: 12vh;
+  width: 100%;
+}
+
+header nav .logo-name {
+  color: #ffff;
+  font-size: 25px;
+  font-family: "system-ui";
+  font-weight: 600;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+header nav ul a:hover {
+  border: 1px;
+  background-color: #ffff;
+  color: rgb(19, 19, 122);
+  border-radius: 8px;
+  transition: 0.02s ease-out;
+  padding: 6px;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* section .first-section div {
+  width: 30%;
+} */
+.first-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
+  margin: 60px 0px;
+}
+
+/* jemon eij eikhane ami likhlam note hishab e jeno mone thake */
+section .leftsection {
+  margin-top: -3%;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.namepurple {
+  color: rgb(110, 67, 190);
+}
+
+#element {
+  color: rgb(110, 67, 190);
+}
+
+img.developer-png {
+  width: 63%;
+  margin-left: 20%;
+}
+
+button.upperbtn {
+  padding: 9px;
+  border-radius: 8px;
+  font-weight: 700;
+  border: 2px solid white;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  background-color: rgb(11, 17, 94);
+}
+
+button.upperbtn a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+button.upperbtn:hover {
+  background-color: white;
+  /* border: 2px solid white; */
+}
+
+button.upperbtn a:hover {
+  color: rgb(11, 17, 94);
+}
+
+/* second section */
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.secondsection h1 {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  background-color: rgb(11, 17, 94);
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 13px;
+}
+
+main hr {
+  border: 0;
+  background: #4a567f;
+  height: 2px;
+  margin: 40px 85px;
+}
+
+.secondsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* thired section */
+section.sectionthree div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstbox {
+  flex-direction: column;
+  border: 2px solid;
+  border-radius: 10px;
+  margin: 1%;
+}
+
+.btnsec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+img.secthreeimg {
+  width: 420px;
+  opacity: 0.6;
+}
+
+button.btn {
+  margin: 0 175px;
+  font-size: 16px;
+  padding: 9px;
+  border-radius: 8px;
+  font-weight: 700;
+  border: 2px solid white;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  background-color: rgb(11, 17, 94);
+  color: white;
+}
+
+button.btn:hover {
+  color: rgb(11, 17, 94);
+  background-color: white;
+  border: 2px solid white;
+}
+
+button.newbutton {
+  display: none;
+}
+
+.hammenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 228px;
+  width: 100%;
+  height: 60vh;
+  background: rgb(36 41 104);
+  position: absolute;
+}
+
+.hammenu-one {
+  transform: translate(900px, 0px);
+  position: absolute;
+  display: none;
+}
+
+.hammenu ul {
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.hammenu ul li {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.hammenu ul li a {
+  font-size: 25px;
+}
+
+/* footer */
+footer {
+  background: #131433;
+  margin-top: 9%;
+  width: 104%;
+  height: 40vh;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.namrfooter {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.footerlist ul {
+  list-style: none;
+}
+
+.footerlist ul li {
+  list-style: none;
+}
+
+.footerlist ul li a {
+  color: rgb(156, 148, 148);
+  list-style: none;
+  font-size: 15px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footerbottomborder {
+  border: 1px solid rgb(110, 67, 190);
+  margin-top: 4px;
+  width: 50px;
+  margin-bottom: 13px;
+}
+
+img.footerimage {
+  width: 47px;
+  background: rgb(156, 148, 148);
+  border-radius: 50px;
+  margin: 0 2px;
+}
+
+/* hidden ham menu */
+@media only screen and (max-width: 1485px) {
+  img.secthreeimg {
+    width: 270px;
+  }
+
+  .btnsec {
+    margin: -14px;
+  }
+
+  button.btn {
+    font-size: 11px;
+    margin: 15px 95px;
+  }
+
+  section .leftsection {
+    font-size: 24px;
+    margin-left: 58px;
+  }
+
+  header nav ul a {
+    font-size: 14px;
+  }
+}
+
+/* 945 */
+@media only screen and (max-width: 945px) {
+  header {
+    width: 104%;
+
+  }
+
+  section .leftsection {
+    font-size: 20px;
+    margin-left: 58px;
+    margin-top: 3%;
+  }
+
+  img.developer-png {
+    width: 40%;
+    margin-left: 35%;
+    margin-top: -7%;
+  }
+
+  button.btn {
+    font-size: 8px;
+    margin: 15px 92px;
+    padding: 6px;
+  }
+
+  button.upperbtn {
+    font-size: 9px;
+    padding: 7px;
+  }
+
+  .namrfooter {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  img.footerimage {
+    width: 36px;
+  }
+
+  .first-section {
+    height: 20vh;
+  }
+}
+
+/* 784 */
+@media only screen and (max-width: 784px) {
+
+  header nav ul li {
+    display: none;
+  }
+
+  .first-section {
+    height: 40vh;
+  }
+
+  .hamburger {
+    display: block;
+    position: relative;
+  }
+
+  .hamburger img {
+    width: 27px;
+    background: white;
+    border-radius: 9px;
+    cursor: pointer;
+    display: block;
+  }
+
+  section .leftsection {
+    margin-left: 70px;
+    margin-top: -16%;
+
+  }
+
+  section.sectionthree div {
+    flex-direction: column;
+  }
+
+  button.btn {
+    display: none;
+  }
+
+  .secondsection h1 {
+    padding: 7px;
+    font-size: 15px;
+  }
+
+  img.developer-png {
+    width: 59%;
+    margin-left: 16%;
+    margin-top: -28%;
+  }
+
+  button.newbutton {
+    padding: 7px;
+    border-radius: 8px;
+    font-weight: 700;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    background-color: rgb(11, 17, 94);
+    display: block;
+
+  }
+
+  button.newbutton a {
+    color: white;
+    text-decoration: none;
+  }
+
+  button.newbutton-one {
+    margin-bottom: 38px;
+  }
+
+  .namrfooter {
+    margin-top: 40px;
+    font-size: 11px;
+  }
+
+  .footerlist ul li a {
+    font-size: 9px;
+  }
+
+  img.footerimage {
+    width: 36px;
+  }
+
+  img.footerimage {
+    width: 23px;
+    display: flex;
+    margin: 7px 0px;
+    margin-left: 15px;
+  }
+}
+
+/* 560 */
+@media only screen and (max-width: 560px) {
+  .developer-png {
+    display: none;
+  }
+
+  .first-section {
+    margin: 45px 0px;
+    margin-bottom: -66px;
+  }
+
+  .secondsection h1 {
+    font-size: 10px;
+  }
+
+  header nav .logo-name {
+    font-size: 19px;
+    ;
+  }
+
+  section .leftsection {
+    margin-left: 18px;
+  }
+
+  .hamburger img {
+    width: 30px;
+  }
+}

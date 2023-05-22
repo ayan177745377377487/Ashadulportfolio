@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 1px #53a5b6  inset;
+}
+.emailph {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 55px;
+}
+.contactname {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 10px 14px;
+}
+input.emailphinput {
+    width: 87%;
+    margin: 0px 12px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 26px;
+    padding: 3px;
+}
+button.emailph-btn {
+    border: 3px solid black;
+    font-size: 25px;
+    margin: 30px 123px;
+    width: 130px;
+    padding: 12px 26px;
+    border-radius: 20px;
+    background: deepskyblue;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 2px 3px black;
+}
+
+button.emailph-btn:hover {
+    background: white;
+    color: deepskyblue;
+    box-shadow: 1px 1px;
+}
